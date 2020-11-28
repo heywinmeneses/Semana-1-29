@@ -4,8 +4,72 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi primera pagina web</title>
-</head>
-<body>
+    <link rel="stylesheet" href="style2.css">
 
+</head>
+
+<body>
+     <!--inicio header-->
+     <header class="header">
+        <!--menu-->
+        <section class="barra-superior">
+            <div class="titulo">
+                <h1>Proyecto final Sprint I</h1>
+            </div>
+            <nav class="contenedor-menu">
+                <ul class="menu-principal">
+                    <li class="menu-principal_item"><a href="#">Inicio</a></li>
+                    <li class="menu-principal_item"><a href="#services">Servicios</a></li>
+                    <li class="menu-principal_item"><a href="#news">Noticias</a></li>
+                    <li class="menu-principal_item"><a href="#teams">Miembros</a></li>
+                </ul>
+            </nav>
+        </section>
+
+        <!--banner-->
+        <section class="banner">
+                <h2 class="banner_titulo" >MisionTIC 2022</h2>
+                <img src="https://www.misiontic2022.gov.co/746/articles-150235_foto_marquesina.jpg" alt="" class="baner_image">
+        </section>
+    </header>
+    <!--fin header-->
+
+  <style>
+        body{
+        font-family: sans-serif;
+        width:1200px;
+        }
+        .header{
+            width: 100%;
+            background-color: #ffff00;
+            -ms-flex-item-align: center;
+                align-self: center;
+            margin: 0px auto;
+            padding: 0 auto;
+        }
+        .barra-superior{
+            display: flex;
+        }
+        .titulo, .contenedor-menu{
+            width: 100%;
+            height: inherit;
+            background-color: azure;
+            text-align: center;
+        }
+        .menu-principal{
+            display: flex;
+            list-style: none;
+            justify-content: space-evenly;
+        }
+        .banner{
+            width: 100%;
+            height: inherit;
+            background-color: #ffff00;
+            text-align: center;
+        }
+        .baner_image{
+            width: 100%;
+        }
+  </style>
 </body>
 </html>
