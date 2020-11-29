@@ -18,7 +18,7 @@ main{
     background-color: rgba(255, 102, 102, 0.48);
     border-style: solid;
     border-color: #ff004c;
-    border-radius: 10%;
+    border-radius: 2%;
 }
 .titulo-principal{
     width: 100%;
@@ -32,6 +32,8 @@ main{
 .services-group {
     display: flex;
     flex-direction: row;
+    margin: 0;
+    padding: 0;
     color: #6600ff; 
     flex-wrap: nowrap;
     align-content: center;
@@ -66,20 +68,38 @@ main{
 .services-group__web {
     display: flex;
     flex-direction: column;
+    margin: 0;
+    padding: 0;
     width: 30%;
     align-content: space-around;
+    background-color: rgba(0, 204, 255, 0.48);
+    border-style: solid;
+    border-color: #ff004c;
+    border-radius: 10%;
 }
 .services-group__e-commerce {
     display: flex;
     flex-direction: column;
+    margin: 0;
+    padding: 0;
     width: 30%;
     align-content: space-around;
+    background-color: rgba(0, 204, 255, 0.48);
+    border-style: solid;
+    border-color: #ff004c;
+    border-radius: 10%;
 }
 .services-group__seo {
     display: flex;
     flex-direction: column;
+    margin: 0;
+    padding: 0;
     width: 30%;
     align-content: space-around;
+    background-color: rgba(0, 204, 255, 0.48);
+    border-style: solid;
+    border-color: #ff004c;
+    border-radius: 10%;
 }
 .paleta {
     color: #6600ff; 
