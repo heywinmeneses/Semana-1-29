@@ -3,16 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" type="text/css">
     <title>Mi primera pagina web</title>
     <link rel="stylesheet" href="style2.css">
 
 </head>
 
 <body>
-     <!--inicio header-->
-     <header class="header">
+
+    <!--inicio header-->
+    <header class="header">
         <!--menu-->
-        <section class="barra-superior">git 
+        <section class="barra-superior"> 
             <div class="titulo">
                 <h1>Proyecto Final Sprint 1</h1>
             </div>
@@ -29,47 +31,47 @@
         <!--banner-->
         <section class="banner">
                 <h2 class="banner_titulo" >MisionTIC 2022</h2>
-                <img src="Img/MisionTIC.jpg" alt="" class="baner_image">
+                <img src="../img/MisionTIC.jpg" alt="" class="baner_image">
         </section>
     </header>
     <!--fin header-->
 
-  <style>
-        body{
-        font-family: sans-serif;
-        width:1200px;
-        }
-        .header{
-            width: 100%;
-            background-color: #ffff00;
-            -ms-flex-item-align: center;
-                align-self: center;
-            margin: 0px auto;
-            padding: 0 auto;
-        }
-        .barra-superior{
-            display: flex;
-        }
-        .titulo, .contenedor-menu{
-            width: 100%;
-            height: inherit;
-            background-color: azure;
-            text-align: center;
-        }
-        .menu-principal{
-            display: flex;
-            list-style: none;
-            justify-content: space-evenly;
-        }
-        .banner{
-            width: 100%;
-            height: inherit;
-            background-color: #ffff00;
-            text-align: center;
-        }
-        .baner_image{
-            width: 100%;
-        }
-  </style>
+    <!--inicio del main-->
+    <main>
+        <!-- Servicios --> 
+        <section id="services" class="services">
+            <div class="titulo-principal"><h2>Maximiza el valor de tu negocio.</h2></div>
+            <div class="services-group">
+                <div class="services-group__web">
+                    <div class="titulo-secundario">
+                        <h3>1.	Servicios de Arquitectura web</h3>
+                    </div>                
+                    <p> Especificaciones. Diseño y desarrollo de plataformas de última tecnología, sobre plantilla y a medida.
+                        <br/>  <a href="#">Ver Detalle</a>
+                    </p>                    
+                    <img src="../img/ServicesWEB.png" alt="servicio de Arquitectura web">                    
+                </div>
+                <div class="services-group__e-commerce">
+                    <div class="titulo-secundario">
+                        <h3>2.	Servicios de gestión de e-commerce</h3>
+                    </div>
+                    <p> Especificaciones. Construcción de prototipos con Mockups, asesoramiento y actualización de tu tienda online. <br/> <a href="#">Ver Detalle</a> 
+                    </p>
+                    <img src="../img/ServicesE-commerce.png" alt="servicio de gestión de e-commerce">
+                </div>
+                <div class="services-group__seo">
+                    <div class="titulo-secundario">
+                        <h3>3.	Servicios de posicionamiento SEO</h3>
+                    </div>
+                    <p>Especificaciones. Arquitectura de meta etiquetas, marcados semánticos, enlazado interno, Keywords, optimización de títulos e imágenes.
+                        <br/>  <a href="#">Ver Detalle</a>
+                    </p>
+                    <img src="../img/serviceSEO.png" alt="servicio de posicionamiento SEO">                    
+                </div>
+            </div>            
+        </section>
+    </main>
+    <!--final del main-->
+    <span style="color:blue">git</span>
 </body>
 </html>
