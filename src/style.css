@@ -1,7 +1,28 @@
+.contenedor-noticias{
+    margin-top: 40px;
+    justify-content: space-evenly;
+}
+
 .groupnews{
     display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 15px;
 }
 
 .noticia{
     display: flex;
+    justify-content: space-evenly;
+    flex-basis: 50%;
 }
+
+.resumen{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+    margin-right: 15px;
+   
+    justify-content: space-evenly;
+}
+
+
